@@ -1,0 +1,105 @@
+/* RESET global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  max-width: 100vw;
+  color: #080808;
+  list-style-type: none;
+  border-block-end-color: aquamarine;
+
+}
+
+#cabecalho img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#header {
+  display: flex;
+  color: rgb(255, 255, 255);
+  background-color: #3905b3;
+  font-size: 20px;
+  width: 1000px;
+  height: 300px;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
+}
+
+#sobre {
+  font-size: 50px;
+}
+
+#content {
+  display: flex;
+}
+
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+.conteiner {
+  display: flex;
+  justify-content: space-evenly;
+  width: 900px;
+  height: auto;
+  padding: 50px;
+}
+
+#intereses {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#linguas {
+  display: flex;
+}
+
+.interese {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#pai {
+  border-block-end-color: aquamarine;
+  width: 1000px;
+  height: auto;
+}
+
+#tittle {
+  width: 1000px;
+  height: auto;
+}
+
+#experiencia1 {
+
+}
+
